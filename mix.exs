@@ -5,7 +5,7 @@ defmodule FrancisRender.MixProject do
     [
       app: :francis_render,
       version: "0.1.0",
-      elixir: "~> 1.16-dev",
+      elixir: "~> 1.15.6",
       start_permanent: Mix.env() == :prod,
       deps: deps()
     ]
